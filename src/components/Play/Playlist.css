@@ -1,0 +1,74 @@
+.playlist {
+    padding: 20px;
+    width: 1200px;
+    height: 1200px;
+    background: linear-gradient(180deg, #DEF628 5.09%, #121212 43.28%);
+
+  }
+  
+  .playlist-image {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+  }
+  
+  .playlist-description {
+    margin: 20px 0;
+  }
+  
+  .tracks {
+    margin-top: 20px;
+  }
+  
+  .tracks ul {
+    list-style: none;
+    padding: 0;
+  }
+  .fra__group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .track-item {
+    margin-top: 20px;
+    display: flex; /* Bir qatorda ko'rsatish uchun */
+    align-items: center; /* Vertikal tekislik */
+    margin-bottom: 10px;
+  }
+  .Fram{
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+  .track-image {
+    width: 52px;
+    height: 52px;
+    border-radius: 8px;
+    margin-right: 10px;
+    opacity: 1; /* Tasvirni ko'rinadigan qilish */
+  }
+  
+  .track-info {
+    margin-left: 40px;
+    flex: 1; /* Track matn va audio pleyerga kenglikni taqsimlash */
+  }
+  
+  audio {
+    width: 100%;
+    max-width: 400px; /* Audio pleyer kengligini boshqarish */
+  }
+  .like-icon {
+    font-size: 24px;
+    color: gray;
+    cursor: pointer;
+    margin-right: 40px;
+  }
+  
+  .like-icon:hover {
+    color: #63CF6C;
+  }
+  .track-number {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+   

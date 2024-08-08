@@ -1,0 +1,254 @@
+.Home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .tokin__rout {
+    width: 100%;
+    max-width: 1200px;
+  }
+  .ad__tokin{
+    width:px;
+  }
+ 
+.footer{
+  color: white;
+}
+
+.tokin__rout {
+  width: 100%;
+  max-width: 1200px;
+  position: relative; /* Arrow'ni joylashtirish uchun relative holatga o'rnatildi */
+}
+.home__icon img{
+  width: 32px;
+height: 32px;
+padding: 2px 3px 2px 4px;
+gap: 0px;
+opacity: 0px;
+
+}
+.library__text{
+  
+  width: 200px;
+height: 23px;
+gap: 0px;
+opacity: 0px;
+font-family: Circular Std,sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 22.77px;
+text-align: left;
+
+}
+.path{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+    top: 20px;
+    left: 103px;
+    gap: 0px;
+    color: black;
+    opacity: 0px;
+    
+}
+
+.topplist {
+  grid-template-columns: repeat(2, 1fr); /* 2 ustun */
+  width: 700px;
+}
+
+.top {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  width: 480px;
+  height: 82px;
+  gap: 0px;
+  border-radius: 6px;
+  opacity: 0.7;
+  background-color:#cccccc41;
+  
+
+
+}
+.good{
+  margin-left: 20px;
+  width: 383px;
+height: 49px;
+top: 110px;
+left: 351px;
+gap: 0px;
+opacity: 0px;
+font-family: Circular Std,sans-serif;
+font-size: 39px;
+font-weight: 700;
+line-height: 49.33px;
+letter-spacing: -0.01em;
+text-align: left;
+
+}
+.img__name {
+  font-family: Circular Std,sans-serif;
+font-size: 16px;
+font-weight: 700;
+line-height: 25.3px;
+letter-spacing: 0.01em;
+text-align: left;
+}
+.top img {
+  width: 82px;
+  height: 82px;
+  border-radius: 6px;
+  opacity: 1; /* Ensure the image itself is visible */
+}
+
+.top div {
+  margin-left: 10px; /* Add some space between the image and the text */
+}
+
+  
+  .topplist {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 ustun */
+    gap: 20px;
+    width: 100%;
+  }
+  
+ 
+  
+  .top img {
+    width: 82px;
+    height: 82px;
+    border-radius: 6px ;
+    opacity: 1; 
+  }
+  
+  .top div {
+    margin-left: 10px; /* Add some space between the image and the text */
+  }
+ 
+  
+  .playlist-container {
+    padding: 20px;
+  
+  }
+  .titel__your{
+    display: flex;align-items: center;
+    justify-content: space-between;
+  }
+  .titel__your h2{
+    width: 195px;
+height: 38px;
+gap: 0px;
+opacity: 0px;
+font-family: Circular Std,sans-serif;
+font-size: 20px;
+font-weight: 700;
+line-height: 37.95px;
+letter-spacing: -0.03em;
+text-align: left;
+
+  }
+  .titel__your p{
+    width: 70px;
+height: 20px;
+top: 18px;
+left: 919px;
+gap: 0px;
+opacity: 0px;
+font-family: Circular Std,sans-serif;
+font-size: 13px;
+font-weight: 700;
+line-height: 20.24px;
+letter-spacing: 0.08em;
+text-align: right;
+color: #ADADAD;
+  }
+  .playlist-container h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  .playlist-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .playlist-card {
+    width: 224px;
+    height: 324px;
+    gap: 0px;
+    border-radius: 8px;
+    opacity: 0.04px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center; /* Center align text */
+    flex: 1;
+    background: #9999990d;
+
+    max-width: 23%;
+    margin-right: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .playlist-card:last-child {
+    margin-right: 0;
+  }
+  
+  .playlist-image {
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    width: 182px;
+height: 182px;
+top: 20px;
+left: 21px;
+gap: 0px;
+border-radius: 4px 0px 0px 0px;
+opacity: 0px;
+
+  }
+  
+  .playlist-info {
+    padding: 16px;
+    width: 100%;
+  }
+  
+  .playlist-name  {
+    text-align:start;
+    margin-left: 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 8px; font-family: Circular Std,sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25.3px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    
+  }
+  .playlist-description {
+    text-align:start;
+    margin-left: 20px;
+    font-size: 14px;
+  color: rgba(255, 255, 255, 0.549);
+    margin-top: 4px;
+    font-family: Circular Std,sans-serif;
+font-size: 12px;
+font-weight: 450;
+line-height: 22.77px;
+  }
+  
+
+
+  /* made */
+  

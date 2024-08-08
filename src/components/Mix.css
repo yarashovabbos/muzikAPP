@@ -1,0 +1,39 @@
+.mix-container {
+    display: flex;
+    justify-content: space-between; /* Space between the cards */
+    gap: 16px; /* Optional: Space between items */
+    padding: 16px;
+  }
+  
+  .playlist-card {
+    /* flex: 1;
+    max-width: 23%; Ensure 4 cards fit in one row 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    text-align: center; */
+    display: flex;
+    align-items: center;
+  }
+  
+  .playlist-image {
+    width: 100%;
+    height: auto;
+    display: block; /* Ensure images are block-level elements */
+  }
+  
+  .playlist-info {
+    padding: 16px;
+  }
+  
+  .playlist-info h3 {
+    font-size: 18px;
+    margin: 8px 0;
+  }
+  
+  .playlist-info p {
+    font-size: 14px;
+    color: #555;
+  }
+  
