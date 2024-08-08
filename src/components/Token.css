@@ -5,18 +5,18 @@
   }
   
   .tokin__rout {
-
-    max-width: 1000px;
+    width: 100%;
+    max-width: 1200px;
+  }
+  .ad__tokin{
+    width:px;
   }
  
- 
-.footer{
-  color: white;
-}
+
 
 .tokin__rout {
   width: 100%;
-  max-width: 1000px;
+  max-width: 1200px;
   position: relative; /* Arrow'ni joylashtirish uchun relative holatga o'rnatildi */
 }
 .home__icon img{
