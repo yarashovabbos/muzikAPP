@@ -5,12 +5,10 @@
   }
   
   .tokin__rout {
-    width: 100%;
-    max-width: 1200px;
+
+    max-width: 1000px;
   }
-  .ad__tokin{
-    width:px;
-  }
+ 
  
 .footer{
   color: white;
@@ -18,7 +16,7 @@
 
 .tokin__rout {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1000px;
   position: relative; /* Arrow'ni joylashtirish uchun relative holatga o'rnatildi */
 }
 .home__icon img{
