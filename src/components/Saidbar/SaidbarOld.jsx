@@ -22,7 +22,7 @@ const SaidbarOld = () => {
         <h5 className="titel__home library__text">Your Library</h5>
       </div>
       <div className="home__icon librar"><img src={Librar} alt="Librar.svg" />
-      <NavLink to="/Playlist" className="titel__home navlink">Create Playlist</NavLink>
+      <h5 className="titel__home navlink">Create Playlist</h5>
       </div>
       <div className="home__icon"><img src={Liked} alt="Liked.svg" />
       <NavLink to="/LikedPage"  className="titel__home navlink" >Liked Songs</NavLink>
